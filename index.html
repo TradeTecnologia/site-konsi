@@ -602,7 +602,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form id="contact-form" action="./forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact-form" action="./forms/contact.php" method="post" role="form" class="php-email-form pt-BR">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="nameField" placeholder="Seu Nome" required>
@@ -612,26 +612,52 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subjectField" placeholder="Assunto" required>
+                <input type="text" class="form-control" name="subject" id="subjectField" placeholder="Assunto"  required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" id="msgField" placeholder="Mensagem" required></textarea>
               </div>
               <div class="my-3">
                 <div class="alert alert-success" role="alert" id='alertSuccess'>
-                 <p class="pt-BR">Seu e-mail foi enviado com sucesso!</p>
-                 <p class="en" style="display: none;">Email sent sucessfuly!</p>
+                 <p>Seu e-mail foi enviado com sucesso!</p>
                 </div>
                 
-                <div class="alert alert-danger pt-BR" role="alert" id='alertFail'>
-                  <p class="pt-BR" >Ops! Ocorreu uma falha no envio do e-mail.</p>
-                  <p class="en" style="display: none;">Oops! Failed to send email.</p>
+                <div class="alert alert-danger" role="alert" id='alertFail'>
+                  <p>Ops! Ocorreu uma falha no envio do e-mail.</p>
                 </div>
                 
               </div>
-              <div class="text-center pt-BR"><button type="submit">Enviar Mensagem</button></div>
-              <div class="text-center en" style="display: none;"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
+
+            <form id="contact-form" action="./forms/contact.php" method="post" role="form" class="php-email-form en" style="display: none;">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="nameField" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="emailField" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subjectField" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" id="msgField" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="alert alert-success" role="alert" id='alertSuccess'>
+                 <p>Email sent sucessfuly!</p>
+                </div>
+                
+                <div class="alert alert-danger" role="alert" id='alertFail'>
+                  <p>Oops! Failed to send email.</p>
+                </div>
+                
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
 
           </div>
 
