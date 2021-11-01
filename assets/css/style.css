@@ -859,7 +859,8 @@ section {
 }
 
 #alfa, #inter {
-  margin-top: 30%
+  margin-top: 30%;
+  width: 100%;
 }
 
 #cetelem, #bib, #bmg {
@@ -867,9 +868,18 @@ section {
 }
 
 #facta {
-  margin-top: 40%
+  margin-top: 40%;
+  width: 120%
+}
+#bradesco {
+  width: 90%
 }
 
+
+
+#bb, #itau, #safra {
+  width:80%;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1159,7 +1169,7 @@ section + #features{
 #apple-button img{
   width: 196px;
   opacity: 20%;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 #apple-button::after{
@@ -1167,7 +1177,8 @@ section + #features{
   color: white;
   margin-left: 55px;
   font-family: "Open Sans", sans-serif;
-
+  display: block;
+  margin-top: 10px;
 }
 
 
