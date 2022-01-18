@@ -12,6 +12,14 @@ var myParam = queryObj();
 var campaignId = myParam["campaignId"]
 var userOrigin = myParam["userOrigin"]
 
+if (campaignId == undefined) {
+    campaignId = "diretoSite"
+}
+
+if (userOrigin == undefined) {
+    userOrigin = 1
+}
+
 var linkStart = "https://links.konsi.com.br/?link=https://konsi.com.br?"
 var linkEnd= "&apn=com.br.konsi&isi=1591286851&ibi=com.br.konsi"
 
