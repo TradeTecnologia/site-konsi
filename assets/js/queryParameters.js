@@ -37,7 +37,7 @@ var linkFinal = linkStart + parameterCampaingId + parameterUserOrigin + linkEnd
 
 var mobileCheck = mobileCheck()
 console.log(mobileCheck)
-if (mobileCheck == True) {
+if (mobileCheck == true) {
     window.onload = function () {
         //when the document is finished loading, replace everything
         //between the <a ...> </a> tags with the value of splitText
