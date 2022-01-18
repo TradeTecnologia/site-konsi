@@ -43,6 +43,8 @@ if (mobileCheck == true) {
         //between the <a ...> </a> tags with the value of splitText
         document.getElementById("deepLinkAndroid").href = linkFinal
         document.getElementById("deepLinkApple").href = linkFinal
+        document.getElementById("deepLinkHero").href = linkFinal
+        document.getElementById("deepLinkHeader").href = linkFinal
         console.log(linkFinal)
     }
 }
