@@ -13,7 +13,7 @@ var campaignId = myParam["campaignId"]
 var userOrigin = myParam["userOrigin"]
 
 var linkStart = "https://links.konsi.com.br/?link=https://konsi.com.br?"
-var linkEnd= "&apn=com.br.konsi&isi=1591286851&ibi=com.br.konsi"
+var linkEnd= "&apn=com.br.konsi&isi=1591286851&ibi=com.br.konsi&efr=1"
 
 var parameterCampaingId= 'campaignId%3D' + campaignId
 var parameterUserOrigin= "%26userOrigin%3D" + userOrigin
