@@ -15,7 +15,6 @@ function downloadTracking3() {
         fbq('track', 'Download', {button: "download", value: "cta-googlePlay"});
       });
 }
-
 function downloadTracking4() {
     $('#$deepLinkApple').click(function() {
         fbq('track', 'Download', {button: "download", value: "cta-appleStore"});
