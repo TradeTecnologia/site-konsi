@@ -22,15 +22,21 @@ var campaignId = myParam["campaignId"]
 var userOrigin = myParam["userOrigin"]
 
 var linkStart = "https://api.konsi.com.br/api/Tracking/store-redirection?"
-if (campaignId == undefined) {
-    campaignId = ""
-}
+
 
 if (userOrigin == undefined) {
     userOrigin = 1
 }
+var parameterCampaingId = ""
+if (campaignId == undefined) {
+    campaignId = ""
+    var parameterCampaingId = 'campaignId' + campaignId
+} else {
+    var parameterCampaingId = 'campaignId=' + campaignId
+}
 
-var parameterCampaingId = 'campaignId=' + campaignId
+
+
 var parameterUserOrigin = "&userOrigin=" + userOrigin
 
 var linkFinal = linkStart + parameterCampaingId + parameterUserOrigin
