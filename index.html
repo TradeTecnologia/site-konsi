@@ -13,7 +13,54 @@
     content="app para emprestimo consignado, app para credito consignado, como reduzir taxa de juros, as menores e melhores taxas de juros do mercado, app para reduzir dividas e liberar dinheiro, comparador de taxas de juros consignado, portabilidade de contrato empréstimo"
     name="keywords">
 
+  <!-- Facebook domain verification-->
   <meta name="facebook-domain-verification" content="uxao2tclju86leo613d2njik4ipnjz" />
+  <!-- End Facebook domain verification-->
+
+  <!-- Intercom script -->
+  <script>
+    window.intercomSettings = {
+      app_id: "zbi3o76l"
+    };
+  </script>
+
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/zbi3o76l'
+    (function () {
+      var w = window;
+      var ic = w.Intercom;
+      if (typeof ic === "function") {
+        ic('reattach_activator');
+        ic('update', w.intercomSettings);
+      } else {
+        var d = document;
+        var i = function () {
+          i.c(arguments);
+        };
+        i.q = [];
+        i.c = function (args) {
+          i.q.push(args);
+        };
+        w.Intercom = i;
+        var l = function () {
+          var s = d.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://widget.intercom.io/widget/zbi3o76l';
+          var x = d.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        };
+        if (document.readyState === 'complete') {
+          l();
+        } else if (w.attachEvent) {
+          w.attachEvent('onload', l);
+        } else {
+          w.addEventListener('load', l, false);
+        }
+      }
+    })();
+  </script>
+  <!-- End Intercom script -->
 
   <!-- Facebook Pixel Code -->
   <script>
@@ -56,14 +103,18 @@
   </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics Vanessa -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-211203721-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];1
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211203721-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    1
 
-  gtag('config', 'UA-211203721-2');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-211203721-2');
+  </script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
