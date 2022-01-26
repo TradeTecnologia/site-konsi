@@ -21,23 +21,29 @@ var myParam = queryObj();
 var campaignId = myParam["campaignId"]
 var userOrigin = myParam["userOrigin"]
 
-var linkStart = "https://links.konsi.com.br/?link=https://konsi.com.br?"
-var linkEnd = "&apn=com.br.konsi&isi=1591286851&ibi=com.br.konsi&efr=1"
-if (campaignId == undefined) {
-    campaignId = "diretoSite"
-}
+var linkStart = "https://api.konsi.com.br/api/Tracking/store-redirection?"
+
 
 if (userOrigin == undefined) {
     userOrigin = 1
 }
+var parameterCampaingId = ""
+if (campaignId == undefined) {
+    campaignId = ""
+    var parameterCampaingId = 'campaignId' + campaignId
+} else {
+    var parameterCampaingId = 'campaignId=' + campaignId
+}
 
-var parameterCampaingId = 'campaignId%3D' + campaignId
-var parameterUserOrigin = "%26userOrigin%3D" + userOrigin
 
-var linkFinal = linkStart + parameterCampaingId + parameterUserOrigin + linkEnd
+
+var parameterUserOrigin = "&userOrigin=" + userOrigin
+
+var linkFinal = linkStart + parameterCampaingId + parameterUserOrigin
 
 var mobileCheck = mobileCheck()
 console.log(mobileCheck)
+console.log(linkFinal)
 if (mobileCheck == true) {
     window.onload = function () {
         //when the document is finished loading, replace everything
