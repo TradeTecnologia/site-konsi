@@ -221,6 +221,14 @@ h6 {
   color: #0a9f82;
 }
 
+#trade-hover a:hover {
+  color: #428bca;
+}
+
+.konsi {
+  color: #428bca;
+}
+
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
