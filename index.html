@@ -1,538 +1,765 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Konsi: App comparador das melhoras taxas para empréstimo</title>
+    <meta
+      content="Venha comparar e simular propostas com as melhores taxas de juros do mercado. Com a gente você pode economizar mensalmente ao reduzir sua parcela de empréstimo consignado, liberar troco sem aumentar sua parcela e muito mais! Konsiga realizar seus sonhos, baixe agora nosso Aplicativo!"
+      name="description"
+    />
+    <meta
+      content="app para emprestimo consignado, app para credito consignado, como reduzir taxa de juros, as menores e melhores taxas de juros do mercado, app para reduzir dividas e liberar dinheiro, comparador de taxas de juros consignado, portabilidade de contrato empréstimo"
+      name="keywords"
+    />
 
-  <title>Konsi: App comparador das melhoras taxas para empréstimo</title>
-  <meta
-    content="Venha comparar e simular propostas com as melhores taxas de juros do mercado. Com a gente você pode economizar mensalmente ao reduzir sua parcela de empréstimo consignado, liberar troco sem aumentar sua parcela e muito mais! Konsiga realizar seus sonhos, baixe agora nosso Aplicativo!"
-    name="description">
-  <meta
-    content="app para emprestimo consignado, app para credito consignado, como reduzir taxa de juros, as menores e melhores taxas de juros do mercado, app para reduzir dividas e liberar dinheiro, comparador de taxas de juros consignado, portabilidade de contrato empréstimo"
-    name="keywords">
+    <!-- Facebook domain verification-->
+    <meta
+      name="facebook-domain-verification"
+      content="uxao2tclju86leo613d2njik4ipnjz"
+    />
+    <!-- End Facebook domain verification-->
 
-  <!-- Facebook domain verification-->
-  <meta name="facebook-domain-verification" content="uxao2tclju86leo613d2njik4ipnjz" />
-  <!-- End Facebook domain verification-->
+    <!-- canonical links -->
+    <link rel="“canonical”" href="https://konsi.com.br/" />
+    <link rel="“canonical”" href="https://konsi.com.br/#" />
+    <link rel="“canonical”" href="https://konsi.com.br//" />
+    <link rel="“canonical”" href="https://konsi.com.br/index.html" />
+    <meta content="Gabriel Nunes de Almeida" name="creator" />
 
-  <!-- canonical links -->
-  <link rel=“canonical” href="https://konsi.com.br/">
-  <link rel=“canonical” href="https://konsi.com.br/#">
-  <link rel=“canonical” href="https://konsi.com.br//">
-  <link rel=“canonical” href="https://konsi.com.br/index.html">
-  <meta content="Gabriel Nunes de Almeida" name="creator">
-
-  <!-- Intercom script -->
-  <script>
-    window.intercomSettings = {
-      app_id: "zbi3o76l"
-    };
-  </script>
-
-  <script>
-    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/zbi3o76l'
-    (function () {
-      var w = window;
-      var ic = w.Intercom;
-      if (typeof ic === "function") {
-        ic('reattach_activator');
-        ic('update', w.intercomSettings);
-      } else {
-        var d = document;
-        var i = function () {
-          i.c(arguments);
-        };
-        i.q = [];
-        i.c = function (args) {
-          i.q.push(args);
-        };
-        w.Intercom = i;
-        var l = function () {
-          var s = d.createElement('script');
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = 'https://widget.intercom.io/widget/zbi3o76l';
-          var x = d.getElementsByTagName('script')[0];
-          x.parentNode.insertBefore(s, x);
-        };
-        if (document.readyState === 'complete') {
-          l();
-        } else if (w.attachEvent) {
-          w.attachEvent('onload', l);
-        } else {
-          w.addEventListener('load', l, false);
-        }
-      }
-    })();
-  </script>
-  <!-- End Intercom script -->
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    ! function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    <!-- Intercom script -->
+    <script>
+      window.intercomSettings = {
+        app_id: "zbi3o76l",
       };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js%27)');
-    fbq('init', '482001613321095');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=482001613321095&ev=PageView&noscript=1" /></noscript>
-  <!-- End Facebook Pixel Code -->
+    </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics Vanessa -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211203721-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    1
+    <script>
+      // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/zbi3o76l'
+      (function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+          ic("reattach_activator");
+          ic("update", w.intercomSettings);
+        } else {
+          var d = document;
+          var i = function () {
+            i.c(arguments);
+          };
+          i.q = [];
+          i.c = function (args) {
+            i.q.push(args);
+          };
+          w.Intercom = i;
+          var l = function () {
+            var s = d.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widget.intercom.io/widget/zbi3o76l";
+            var x = d.getElementsByTagName("script")[0];
+            x.parentNode.insertBefore(s, x);
+          };
+          if (document.readyState === "complete") {
+            l();
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", l);
+          } else {
+            w.addEventListener("load", l, false);
+          }
+        }
+      })();
+    </script>
+    <!-- End Intercom script -->
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js%27)"
+      );
+      fbq("init", "482001613321095");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=482001613321095&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
-    gtag('config', 'UA-211203721-2');
-  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics Vanessa -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-211203721-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      1;
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+      gtag("config", "UA-211203721-2");
+    </script>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- =======================================================
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
   * Template Name: Presento - v3.7.0
   * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  </head>
 
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <!-- <h1 class="logo me-auto"><a href="index.html">Konsi<span>.</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo me-auto"
+          ><img src="assets/img/logo-konsi-name-black.png" alt="logo konsi"
+        /></a>
 
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-      <!-- <h1 class="logo me-auto"><a href="index.html">Konsi<span>.</span></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo-konsi-name-black.png" alt="logo konsi"></a>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Produtos</a></li>
-          <li><a class="nav-link scrollto" href="#why-us">Porque a Konsi?</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Depoimentos</a></li>
-          <!-- <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li> -->
-          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
-          <li id="trade-hover"><a class="nav-link scrollto" target="_blank" href="https://tradeoff.com.br/"><span
-                class="konsi">Trade OFF</span></a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
-          <li class="dropdown"><a href="#"><span>Convênios</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#cta">GOV BA</a></li>
-              <li><a href="https://www.govsp.konsi.com.br/" target="_blank">GOV SP</a></li>
-              <li><a href="https://konsi.simular.app/" target="_blank">Antecipação Saque-Aniversário FGTS</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#services">Produtos</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#why-us">Porque a Konsi?</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#testimonials">Depoimentos</a>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li> -->
+            <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+            <li id="trade-hover">
+              <a
+                class="nav-link scrollto"
+                target="_blank"
+                href="https://tradeoff.com.br/"
+                ><span class="konsi">Trade OFF</span></a
+              >
+            </li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Convênios</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a class="nav-link scrollto" href="#cta">GOV BA</a></li>
+                <li>
+                  <a href="https://www.govsp.konsi.com.br/" target="_blank"
+                    >GOV SP</a
+                  >
+                </li>
+                <li>
+                  <a href="https://konsi.simular.app/" target="_blank"
+                    >Antecipação Saque-Aniversário FGTS</a
+                  >
+                </li>
+                <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                 </ul>
               </li> -->
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="https://konsi.simular.app/" target="_blank">Antecipação FGTS</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+              </ul>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="https://konsi.simular.app/" target="_blank">Antecipação FGTS</a></li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
 
-      <a id="deepLinkHeader" href="#cta" class="get-started-btn scrollto"
-        onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'navbar_btn'});">Baixe o
-        App</a>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <div class="row">
-        <div class="col-xl-6">
-          <h1><span>Kon</span>siga realizar seus sonhos<span>.</span></h1>
-          <h2>Um comparador das melhores oportunidades em crédito consignado na palma da sua mão. Prático, Seguro e
-            Transparente.</h2>
-          <a id="deepLinkHero" href="#cta" class="btn-get-started scrollto"
-            onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'hero_btn'});">Baixe
-            Agora!</a>
-        </div>
+        <a
+          id="deepLinkHeader"
+          href="#cta"
+          class="get-started-btn scrollto"
+          onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'navbar_btn'});"
+          >Baixe o App</a
+        >
       </div>
-    </div>
+    </header>
+    <!-- End Header -->
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a href="https://www.santander.com.br/" target="_blank"><img
-                  src="assets/img/clients/santander.png" class="img-fluid" alt="santander logo"></a></div>
-            <div class="swiper-slide"><a href="https://financiamentos.bradesco/html/home.shtm" target="_blank"><img
-                  src="assets/img/clients/bradesco.png" class="img-fluid" alt="bradesco logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.safra.com.br/" target="_blank"><img
-                  src="assets/img/clients/safra.png" class="img-fluid" alt="safra logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.caixa.gov.br/Paginas/home-caixa.aspx" target="_blank"><img
-                  src="assets/img/clients/caixa.png" class="img-fluid" alt="caixa economica logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.bancopan.com.br/" target="_blank"><img
-                  src="assets/img/clients/pan.png" class="img-fluid" alt="pan logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.bancointer.com.br/" target="_blank"><img
-                  src="assets/img/clients/inter.png" class="img-fluid" alt="banco inter logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.banrisul.com.br/" target="_blank"><img
-                  src="assets/img/clients/banrisul.png" class="img-fluid" alt="banrisul logo"></a></div>
-            <div class="swiper-slide"><a href="https://www.daycoval.com.br/" target="_blank"><img
-                  src="assets/img/clients/daycoval.png" class="img-fluid" alt="banrisul logo"></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Nossos Produtos</h2>
-          <p>Aqui você tem várias possibilidades. Escolha a que mais se encaixa com seu momento financeiro.</p>
-        </div>
-
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <div class="row">
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-currency-exchange"></i>
-              <h4><a>Troco Máximo</a></h4>
-              <p>Máximo valor de Troco liberado. Usaremos sua margem livre e faremos portabilidade de algum dos seus
-                contratos para conseguir taxas melhores.</p>
-            </div>
+          <div class="col-xl-6">
+            <h1><span>Kon</span>siga realizar seus sonhos<span>.</span></h1>
+            <h2>
+              Um comparador das melhores oportunidades em crédito consignado na
+              palma da sua mão. Prático, Seguro e Transparente.
+            </h2>
+            <a
+              id="deepLinkHero"
+              href="#cta"
+              class="btn-get-started scrollto"
+              onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'hero_btn'});"
+              >Baixe Agora!</a
+            >
           </div>
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-coin"></i>
-              <h4><a>Troco Fit</a></h4>
-              <p>Não comprometa sua parcela mensal! Trabalharemos com a portabilidade de contratos para alcançar taxas
-                melhores.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-cash"></i>
-              <h4><a>Crédito Novo</a></h4>
-              <p>Essa opção é pra quem tem margem livre! Crédito liberado em até 48h. Você poderá escolher a melhor
-                proposta!</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-scissors"></i>
-              <h4><a>Redução de Parcela</a></h4>
-              <p>Quer reduzir seu gasto mensal? Essa é a melhor opção para você. Vamos buscar as melhores taxas
-                para você atraves da portabilidade do contrato!</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-cash-stack"></i>
-              <h4><a >Troco Rápido</a></h4>
-              <p>Refinanciamento rápido de empréstimos sem portabilidade.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0 h-5">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-credit-card"></i>
-              <h4><a href="https://fgts.konsi.com.br/" target="_blank">Antecipação Saque-aniversário FGTS</a></h4>
-              <p>Antecipação do Saque FGTS sem cobrança mensal.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Video Section ======= -->
-    <section id="video" class="video">
-      <div class="container" data-aos="fade-up">
-        <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/vdQ1Mb2kDsI?vdQ1Mb2kDsI" title="Konsi Video"
-            style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
         </div>
       </div>
     </section>
+    <!-- End Hero -->
 
-
-    <!-- <iframe width="1904" height="760" src="https://www.youtube.com/embed/vdQ1Mb2kDsI" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe> -->
-    <!-- ======= End Video Section ======= -->
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
-      <div class="container ">
-        <div class="section-title">
-          <h2>Por que escolher a <span>Kon</span>si?</h2>
-          <p>Só a <span>Kon</span>si te da a Praticidade, Segurança e Parceria que você precisa. </p>
+    <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container" data-aos="zoom-in">
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <a href="https://www.santander.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/santander.png"
+                    class="img-fluid"
+                    alt="santander logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://financiamentos.bradesco/html/home.shtm"
+                  target="_blank"
+                  ><img
+                    src="assets/img/clients/bradesco.png"
+                    class="img-fluid"
+                    alt="bradesco logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.safra.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/safra.png"
+                    class="img-fluid"
+                    alt="safra logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+                  target="_blank"
+                  ><img
+                    src="assets/img/clients/caixa.png"
+                    class="img-fluid"
+                    alt="caixa economica logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.bancopan.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/pan.png"
+                    class="img-fluid"
+                    alt="pan logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.bancointer.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/inter.png"
+                    class="img-fluid"
+                    alt="banco inter logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.banrisul.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/banrisul.png"
+                    class="img-fluid"
+                    alt="banrisul logo"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.daycoval.com.br/" target="_blank"
+                  ><img
+                    src="assets/img/clients/daycoval.png"
+                    class="img-fluid"
+                    alt="banrisul logo"
+                /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/kon-praticidade.png" class="card-img-top" alt="kon praticidade">
-              <div class="card-icon">
-                <i class="bi bi-cursor"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a><span>Kon</span> Praticidade</a></h5>
-                <p class="card-text">Na palma da sua mão, 24 horas por dia, mostro sua margem disponível, comparo taxas,
-                  simulo
-                  novos financiamentos e muito mais.</p>
-              </div>
-            </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Nossos Produtos</h2>
+            <p>
+              Aqui você tem várias possibilidades. Escolha a que mais se encaixa
+              com seu momento financeiro.
+            </p>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/kon-seguranca.png" class="card-img-top" alt="kon seguranca">
-              <div class="card-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a><span>Kon</span> Segurança</a></h5>
-                <p class="card-text">Sou um app desenvolvido pela <a href="https://tradeoff.com.br/"
-                    target="_blank">Trade OFF Assessoria Financeira</a> que já está no mercado há mais de 5 anos.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/kon-voce.png" class="card-img-top" alt="...">
-              <div class="card-icon">
-                <i class="bi bi-people"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a><span>Kon</span> Você</a></h5>
-                <p class="card-text">Meu objetivo é estar <span>Kon</span> Você, te auxiliando a fazer as melhores
-                  escolhas na
-                  contratação de
-                  crédito consignado.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/sem-complicacao.png" class="card-img-top" alt="facil">
-              <div class="card-icon">
-                <i class="bi bi-chevron-double-up"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a>Sem Complicação</a></h5>
-                <p class="card-text">Te mostro as melhores opções de consignado do mercado na palma da sua mão. Fácil
-                  de
-                  acessar, fácil de entender!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/sem-letras-pequenas.png" class="card-img-top" alt="explicativo">
-              <div class="card-icon">
-                <i class="bi bi-zoom-in"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a>Sem Letras Pequenas</a></h5>
-                <p class="card-text">Trabalho para te dar acesso simples e prático às opções do mercado na contratação
-                  de um
-                  consignado.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <img src="assets/img/sem-surpresas-desagradaveis.png" class="card-img-top" alt="sem golpe">
-              <div class="card-icon">
-                <i class="bi bi-emoji-laughing"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a>Sem Surpresas Desagradáveis</a></h5>
-                <p class="card-text">O meu objetivo é te dar informação para você ter controle total dos seus
-                  empréstimos.
+
+          <div class="row">
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="bi bi-currency-exchange"></i>
+                <h4><a>Troco Máximo</a></h4>
+                <p>
+                  Máximo valor de Troco liberado. Usaremos sua margem livre e
+                  faremos portabilidade de algum dos seus contratos para
+                  conseguir taxas melhores.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Sobre a <strong><span>Kon</span></strong>si</h3>
-              <p>
-                A <strong><span>Kon</span></strong>si nasceu da necessidade de trazer a melhor experiência em empréstimo
-                consignado, sendo Simples,
-                Seguro e Transparente.
-              </p>
-              <!-- <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a> -->
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-coin"></i>
+                <h4><a>Troco Fit</a></h4>
+                <p>
+                  Não comprometa sua parcela mensal! Trabalharemos com a
+                  portabilidade de contratos para alcançar taxas melhores.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-cash"></i>
+                <h4><a>Crédito Novo</a></h4>
+                <p>
+                  Essa opção é pra quem tem margem livre! Crédito liberado em
+                  até 48h. Você poderá escolher a melhor proposta!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-scissors"></i>
+                <h4><a>Redução de Parcela</a></h4>
+                <p>
+                  Quer reduzir seu gasto mensal? Essa é a melhor opção para
+                  você. Vamos buscar as melhores taxas para você atraves da
+                  portabilidade do contrato!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-cash-stack"></i>
+                <h4><a>Troco Rápido</a></h4>
+                <p>Refinanciamento rápido de empréstimos sem portabilidade.</p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0 h-5">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
+                <i class="bi bi-credit-card"></i>
+                <h4>
+                  <a href="https://fgts.konsi.com.br/" target="_blank"
+                    >Antecipação Saque-aniversário FGTS</a
+                  >
+                </h4>
+                <p>Antecipação do Saque FGTS sem cobrança mensal.</p>
+              </div>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bi bi-bullseye"></i>
-                  <h4>Missão</h4>
-                  <p>Nosso propósito é revolucionar o mercado de crédito consignado, encantando os nosso clientes
-                    através das melhores práticas, inteligência de negócio, e tecnologia.</p>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Video Section ======= -->
+      <section id="video" class="video">
+        <div class="container" data-aos="fade-up">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/vdQ1Mb2kDsI?vdQ1Mb2kDsI"
+              title="Konsi Video"
+              style="max-width: 100%; height: 100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- <iframe width="1904" height="760" src="https://www.youtube.com/embed/vdQ1Mb2kDsI" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe> -->
+      <!-- ======= End Video Section ======= -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Por que escolher a <span>Kon</span>si?</h2>
+            <p>
+              Só a <span>Kon</span>si te da a Praticidade, Segurança e Parceria
+              que você precisa.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/kon-praticidade.png"
+                  class="card-img-top"
+                  alt="kon praticidade"
+                />
+                <div class="card-icon">
+                  <i class="bi bi-cursor"></i>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-box"></i>
-                  <h4>O que somos</h4>
-                  <p>Somos uma Startup Fintech focada no desenvolvimento de produtos eficientes que trazem uma
-                    experiência única quando o assunto é crédito.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-gear"></i>
-                  <h4>O Motor</h4>
-                  <p>Nosso algoritmo <strong><span>Kon</span></strong> é capaz de calcular as melhores oportunidades de
-                    crédito consignado do mercado, visando as
-                    melhores condições de juros e liberando o máximo de troco para você.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-hand-thumbs-up"></i>
-                  <h4>Compromisso</h4>
-                  <p>Na <strong><span>Kon</span></strong>si você fica por dentro de tudo: através do App é possível
-                    acompanhar a operação em tempo
-                    real. Nosso suporte também está sempre a disposição para te ajudar!</p>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a><span>Kon</span> Praticidade</a>
+                  </h5>
+                  <p class="card-text">
+                    Na palma da sua mão, 24 horas por dia, mostro sua margem
+                    disponível, comparo taxas, simulo novos financiamentos e
+                    muito mais.
+                  </p>
                 </div>
               </div>
-            </div><!-- End .content-->
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/kon-seguranca.png"
+                  class="card-img-top"
+                  alt="kon seguranca"
+                />
+                <div class="card-icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a><span>Kon</span> Segurança</a>
+                  </h5>
+                  <p class="card-text">
+                    Sou um app desenvolvido pela
+                    <a href="https://tradeoff.com.br/" target="_blank"
+                      >Trade OFF Assessoria Financeira</a
+                    >
+                    que já está no mercado há mais de 5 anos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/kon-voce.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a><span>Kon</span> Você</a>
+                  </h5>
+                  <p class="card-text">
+                    Meu objetivo é estar <span>Kon</span> Você, te auxiliando a
+                    fazer as melhores escolhas na contratação de crédito
+                    consignado.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/sem-complicacao.png"
+                  class="card-img-top"
+                  alt="facil"
+                />
+                <div class="card-icon">
+                  <i class="bi bi-chevron-double-up"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a>Sem Complicação</a></h5>
+                  <p class="card-text">
+                    Te mostro as melhores opções de consignado do mercado na
+                    palma da sua mão. Fácil de acessar, fácil de entender!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/sem-letras-pequenas.png"
+                  class="card-img-top"
+                  alt="explicativo"
+                />
+                <div class="card-icon">
+                  <i class="bi bi-zoom-in"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a>Sem Letras Pequenas</a></h5>
+                  <p class="card-text">
+                    Trabalho para te dar acesso simples e prático às opções do
+                    mercado na contratação de um consignado.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="assets/img/sem-surpresas-desagradaveis.png"
+                  class="card-img-top"
+                  alt="sem golpe"
+                />
+                <div class="card-icon">
+                  <i class="bi bi-emoji-laughing"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a>Sem Surpresas Desagradáveis</a></h5>
+                  <p class="card-text">
+                    O meu objetivo é te dar informação para você ter controle
+                    total dos seus empréstimos.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End Why Us Section -->
 
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta ">
-      <div class="container" data-aos="fade-up">
-        <div class="text-center">
-          <h3>Venha fazer parte do time <span>Kon</span></h3>
-          <p>Baixe o App e aproveite as melhores oportunidades em crédito para você!</p>
-          <a id="deepLinkAndroid" href="https://play.google.com/store/apps/details?id=com.br.konsi" target="_blank"
-            class="cta-btn-android"
-            onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'cta_btn_google_play'});"><i
-              class="bx bxl-android  android-icon"></i> Google
-            Play</a>
-          <a id="deepLinkApple" href="https://apps.apple.com/tt/app/konsi/id1591286851" target="_blank" class="cta-btn"
-            onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'cta_btn_ apple_store'});"><i
-              class="bi bi-apple"></i> App Store</a>
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row no-gutters">
+            <div class="content col-xl-5 d-flex align-items-stretch">
+              <div class="content">
+                <h3>
+                  Sobre a <strong><span>Kon</span></strong
+                  >si
+                </h3>
+                <p>
+                  A <strong><span>Kon</span></strong
+                  >si nasceu da necessidade de trazer a melhor experiência em
+                  empréstimo consignado, sendo Simples, Seguro e Transparente.
+                </p>
+                <!-- <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a> -->
+              </div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-stretch">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <i class="bi bi-bullseye"></i>
+                    <h4>Missão</h4>
+                    <p>
+                      Nosso propósito é revolucionar o mercado de crédito
+                      consignado, encantando os nosso clientes através das
+                      melhores práticas, inteligência de negócio, e tecnologia.
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="bi bi-box"></i>
+                    <h4>O que somos</h4>
+                    <p>
+                      Somos uma Startup Fintech focada no desenvolvimento de
+                      produtos eficientes que trazem uma experiência única
+                      quando o assunto é crédito.
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="bi bi-gear"></i>
+                    <h4>O Motor</h4>
+                    <p>
+                      Nosso algoritmo <strong><span>Kon</span></strong> é capaz
+                      de calcular as melhores oportunidades de crédito
+                      consignado do mercado, visando as melhores condições de
+                      juros e liberando o máximo de troco para você.
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <h4>Compromisso</h4>
+                    <p>
+                      Na <strong><span>Kon</span></strong
+                      >si você fica por dentro de tudo: através do App é
+                      possível acompanhar a operação em tempo real. Nosso
+                      suporte também está sempre a disposição para te ajudar!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
         </div>
-      </div>
-    </section><!-- End Cta Section -->
+      </section>
+      <!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="203" data-purecounter-duration="3"
-                class="purecounter"></span>
-              <p>Clientes Promotores</p>
-            </div>
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="fade-up">
+          <div class="text-center">
+            <h3>Venha fazer parte do time <span>Kon</span></h3>
+            <p>
+              Baixe o App e aproveite as melhores oportunidades em crédito para
+              você!
+            </p>
+            <a
+              id="deepLinkAndroid"
+              href="https://play.google.com/store/apps/details?id=com.br.konsi"
+              target="_blank"
+              class="cta-btn-android"
+              onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'cta_btn_google_play'});"
+              ><i class="bx bxl-android android-icon"></i> Google Play</a
+            >
+            <a
+              id="deepLinkApple"
+              href="https://apps.apple.com/tt/app/konsi/id1591286851"
+              target="_blank"
+              class="cta-btn"
+              onclick="gtag('event','click_download_btn', {'event_category':'baixarApp','event_label':'cta_btn_ apple_store'});"
+              ><i class="bi bi-apple"></i> App Store</a
+            >
           </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-cash-stack"></i>
-              <span data-purecounter-start="0" data-purecounter-end="6543212" data-purecounter-duration="8"
-                data-purecounter-currency="true" data-purecounter-currencysymbol="R$ " class="purecounter"></span>
-              <p>Valor pago em operações</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1659" data-purecounter-duration="4"
-                class="purecounter"></span>
-              <p>Horas de Atendimento</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="55" data-purecounter-duration="2"
-                class="purecounter"></span>
-              <p>Encantadores de Clientes </p>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Cta Section -->
 
-      </div>
-    </section>
-    <!-- End Counts Section -->
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="203"
+                  data-purecounter-duration="3"
+                  class="purecounter"
+                ></span>
+                <p>Clientes Promotores</p>
+              </div>
+            </div>
 
-    <!-- ======= Tabs Section ======= -->
-    <!-- <section id="tabs" class="tabs">
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+              <div class="count-box">
+                <i class="bi bi-cash-stack"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="6543212"
+                  data-purecounter-duration="8"
+                  data-purecounter-currency="true"
+                  data-purecounter-currencysymbol="R$ "
+                  class="purecounter"
+                ></span>
+                <p>Valor pago em operações</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1659"
+                  data-purecounter-duration="4"
+                  class="purecounter"
+                ></span>
+                <p>Horas de Atendimento</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="55"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                ></span>
+                <p>Encantadores de Clientes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Tabs Section ======= -->
+      <!-- <section id="tabs" class="tabs">
       <div class="container" data-aos="fade-up">
 
         <ul class="nav nav-tabs row d-flex">
@@ -688,117 +915,127 @@
 
       </div>
     </section> -->
-    <!-- End Tabs Section -->
+      <!-- End Tabs Section -->
 
-
-
-
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>O que falam da <span>Kon</span>si?</h2>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
-                  <h3>Maria Conceição</h3>
-                  <h4>Cliente Promotor</h4>
-                  <p class="section-bg-font">
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Atendimento muito bom, estou satisfeita com a brevidade nas informações e a gentileza. A
-                    <strong><span>Kon</span></strong>si tem
-                    muito conhecimento do produto comercial e é precisa nas informações. Recomendo a empresa para outras
-                    pessoas.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
-                  <h3>Maria Santos</h3>
-                  <h4>Cliente Promotor</h4>
-                  <p class="section-bg-font">
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fiquei tão feliz com a mensagem do banco me informando que
-                    havia dado tudo certo. A <strong><span>Kon</span></strong>si foi fundamental no processo. Não fechar
-                    negócio com vocês é sinônimo
-                    de traição.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
-                  <h3>Edilson Freitas</h3>
-                  <h4>Cliente Promotor</h4>
-                  <p class="section-bg-font">
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Muito obrigado. A <strong><span>Kon</span></strong>si a todo momento me passou confiança,
-                    informações claras e objetivas. Isso me
-                    fez prosseguir com o contrato.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
-                  <h3>José Cerqueira</h3>
-                  <h4>Cliente Promotor</h4>
-                  <p class="section-bg-font">
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Aproveitei a oportunidade pois precisava terminar a construção da minha casa. Nunca tive um
-                    atendimento como o da <strong><span>Kon</span></strong>si. Total atenção desde o primeiro contato.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
-                  <h3>Cinara Karina Silva</h3>
-                  <h4>Cliente Promotor</h4>
-                  <p class="section-bg-font">
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Mesmo que o banco equiparasse a oferta com a proposta feita pela
-                    <strong><span>Kon</span></strong>si, eu migraria com vocês.
-                    Realmente algo inédito em minha vida dar atenção a conversas com pessoas de outros bancos.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>O que falam da <span>Kon</span>si?</h2>
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                    <h3>Maria Conceição</h3>
+                    <h4>Cliente Promotor</h4>
+                    <p class="section-bg-font">
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Atendimento muito bom, estou satisfeita com a brevidade
+                      nas informações e a gentileza. A
+                      <strong><span>Kon</span></strong
+                      >si tem muito conhecimento do produto comercial e é
+                      precisa nas informações. Recomendo a empresa para outras
+                      pessoas.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                    <h3>Maria Santos</h3>
+                    <h4>Cliente Promotor</h4>
+                    <p class="section-bg-font">
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Fiquei tão feliz com a mensagem do banco me informando que
+                      havia dado tudo certo. A <strong><span>Kon</span></strong
+                      >si foi fundamental no processo. Não fechar negócio com
+                      vocês é sinônimo de traição.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
+                    <h3>Edilson Freitas</h3>
+                    <h4>Cliente Promotor</h4>
+                    <p class="section-bg-font">
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Muito obrigado. A <strong><span>Kon</span></strong
+                      >si a todo momento me passou confiança, informações claras
+                      e objetivas. Isso me fez prosseguir com o contrato.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
+                    <h3>José Cerqueira</h3>
+                    <h4>Cliente Promotor</h4>
+                    <p class="section-bg-font">
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Aproveitei a oportunidade pois precisava terminar a
+                      construção da minha casa. Nunca tive um atendimento como o
+                      da <strong><span>Kon</span></strong
+                      >si. Total atenção desde o primeiro contato.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+                    <h3>Cinara Karina Silva</h3>
+                    <h4>Cliente Promotor</h4>
+                    <p class="section-bg-font">
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Mesmo que o banco equiparasse a oferta com a proposta
+                      feita pela
+                      <strong><span>Kon</span></strong
+                      >si, eu migraria com vocês. Realmente algo inédito em
+                      minha vida dar atenção a conversas com pessoas de outros
+                      bancos.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
+      </section>
+      <!-- End Testimonials Section -->
 
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!-- <section id="portfolio" class="portfolio">
+      <!-- ======= Portfolio Section ======= -->
+      <!-- <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -959,10 +1196,10 @@
 
       </div>
     </section> -->
-    <!-- End Portfolio Section -->
+      <!-- End Portfolio Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing section-bg">
+      <!-- ======= Pricing Section ======= -->
+      <!-- <section id="pricing" class="pricing section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -1028,104 +1265,146 @@
 
       </div>
     </section> -->
-    <!-- End Pricing Section -->
+      <!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container" data-aos="fade-up">
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Perguntas Frequentes</h2>
+          </div>
 
-        <div class="section-title">
-          <h2>Perguntas Frequentes</h2>
+          <ul class="faq-list accordion" data-aos="fade-up">
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                class="collapsed"
+                data-bs-target="#faq1"
+                >Quem pode contratar conosco?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Atualmente atendemos Servidores Estaduais do Governo da Bahia
+                  mas estamos ampliando o nosso atendimento para outros
+                  convênios!
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                class="collapsed"
+                >Posso desistir da operação de portabilidade após o pagamento
+                integral da divida entre os bancos?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Não. Nesse caso não cabe o prazo de 7 dias para o direito de
+                  arrependimento pois após a efetivação do pagamento, ocorre a
+                  redução da taxa e não é possivel reverter.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                class="collapsed"
+                >Portabilidade gera troco?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Não. Está operação apenas transfere a divida de um banco para
+                  outro, onde o contrato é feito obrigatoriamente no mesmo
+                  prazo.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                class="collapsed"
+                >Posso cancelar uma operação de crédito após ser efetivada?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Sim! O cliente tem direito de cancelar a operação (exceto
+                  portabilidade) em até 7 dias úteis após a efetivação e para
+                  isso deverá devolver o valor recebido.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+                class="collapsed"
+                >O meu troco pode mudar caso ocorram variações em minha margem
+                durante a operação? <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Sim. Se a margem sofrer uma variação positiva, o valor do
+                  troco pode aumentar, caso o cliente deseje optar por um valor
+                  maior. Porém, caso a margem sofra uma variação negativa o
+                  valor do troco obrigatoriamente será reduzido.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq6"
+                class="collapsed"
+                >Qual é o prazo para concluir a minha operação?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <span><b>Portabilidade</b></span
+                  ><br />
+                  O prazo estimado para a conclusão é de 9 a 12 dias úteis após
+                  a formalização.<br />
+                  <span><b>Portabilidade com Refinanciamento</b></span
+                  ><br />
+                  O prazo estimado para a conclusão é de 15 dias úteis após a
+                  formalização.<br />
+                  <span><b>Crédito Novo</b></span
+                  ><br />
+                  O prazo estimado para a liberação é de 48 horas úteis.<br />
+                  <span><b>Refinanciamento</b></span
+                  ><br />
+                  O prazo estimado para a liberação é de 48 horas úteis.<br />
+                  <span><b>Antecipação FGTS</b></span
+                  ><br />
+                  O prazo estimado para a liberação é de 48 horas úteis.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
+      </section>
+      <!-- End Frequently Asked Questions Section -->
 
-        <ul class="faq-list accordion" data-aos="fade-up">
-
-          <li>
-            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Quem pode contratar
-              conosco? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Atualmente atendemos Servidores Estaduais do Governo da Bahia mas estamos ampliando o nosso atendimento
-                para outros convênios!
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Posso desistir da operação de
-              portabilidade após o pagamento
-              integral da divida entre os bancos? <i class="bx bx-chevron-down icon-show"></i><i
-                class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Não. Nesse caso não cabe o prazo de 7 dias para o direito de arrependimento pois após a efetivação do
-                pagamento, ocorre a redução da taxa e não é possivel reverter.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Portabilidade gera troco? <i
-                class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Não. Está operação apenas transfere a divida de um banco para outro, onde o contrato é feito
-                obrigatoriamente no mesmo prazo.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Posso cancelar uma operação de crédito
-              após
-              ser efetivada? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Sim! O cliente tem direito de cancelar a operação (exceto portabilidade) em até 7 dias úteis após a
-                efetivação e para isso deverá devolver o valor recebido.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">O meu troco pode mudar caso ocorram
-              variações em minha margem durante a operação? <i class="bx bx-chevron-down icon-show"></i><i
-                class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Sim. Se a margem sofrer uma variação positiva, o valor do troco pode aumentar, caso o cliente deseje
-                optar por um valor maior.
-                Porém, caso a margem sofra uma variação negativa o valor do troco obrigatoriamente será reduzido.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">Qual é o prazo para concluir a minha
-              operação? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                <span><b>Portabilidade</b></span><br>
-                O prazo estimado para a conclusão é de 9 a 12 dias úteis após a formalização.<br>
-                <span><b>Portabilidade com Refinanciamento</b></span><br>
-                O prazo estimado para a conclusão é de 15 dias úteis após a formalização.<br>
-                <span><b>Crédito Novo</b></span><br>
-                O prazo estimado para a liberação é de 48 horas úteis.<br>
-                <span><b>Refinanciamento</b></span><br>
-                O prazo estimado para a liberação é de 48 horas úteis.<br>
-                <span><b>Antecipação FGTS</b></span><br>
-                O prazo estimado para a liberação é de 48 horas úteis.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team section-bg">
+      <!-- ======= Team Section ======= -->
+      <!-- <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -1211,58 +1490,70 @@
 
       </div>
     </section> -->
-    <!-- End Team Section -->
+      <!-- End Team Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Onde nos encontrar</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Onde nos encontrar</h2>
+            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p> -->
-        </div>
+          </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="d-flex justify-content-center">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <a href="https://goo.gl/maps/YTnQ8XwwAQkdAcsS6" target="_blank"><i class="bx bx-map"></i></a>
-                  <a href="https://goo.gl/maps/YTnQ8XwwAQkdAcsS6" target="_blank">
-                    <h3>Venha nos visitar</h3>
-
-                  </a>
-                  <p>Rua Cel. Almerindo Rehem, 82, Ed. Bahia Executive Center, Salas 801 a 806 - Caminho das Árvores,
-                    Salvador - BA</p>
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <a
+                      href="https://goo.gl/maps/YTnQ8XwwAQkdAcsS6"
+                      target="_blank"
+                      ><i class="bx bx-map"></i
+                    ></a>
+                    <a
+                      href="https://goo.gl/maps/YTnQ8XwwAQkdAcsS6"
+                      target="_blank"
+                    >
+                      <h3>Venha nos visitar</h3>
+                    </a>
+                    <p>
+                      Rua Cel. Almerindo Rehem, 82, Ed. Bahia Executive Center,
+                      Salas 801 a 806 - Caminho das Árvores, Salvador - BA
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <a href="mailto:contato@konsi.com.br" target="_blank"><i class="bx bx-envelope"></i></a>
-                  <a href="mailto:contato@konsi.com.br" target="_blank">
-                    <h3>Nos mande um Email</h3>
-                  </a>
-                  <p>contato@konsi.com.br
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <a href="mailto:contato@konsi.com.br" target="_blank"
+                      ><i class="bx bx-envelope"></i
+                    ></a>
+                    <a href="mailto:contato@konsi.com.br" target="_blank">
+                      <h3>Nos mande um Email</h3>
+                    </a>
+                    <p>contato@konsi.com.br</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <a href="https://api.whatsapp.com/send?phone=5571992230123" target="_blank"><i
-                      class="bx bxl-whatsapp"></i></a>
-                  <a href="https://api.whatsapp.com/send?phone=5571992230123" target="_blank">
-                    <h3>WhatsApp</h3>
-                  </a>
-                  <p>(71) 9 9223-0123
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5571992230123"
+                      target="_blank"
+                      ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5571992230123"
+                      target="_blank"
+                    >
+                      <h3>WhatsApp</h3>
+                    </a>
+                    <p>(71) 9 9223-0123</p>
+                  </div>
                 </div>
               </div>
             </div>
 
-          </div>
-
-          <!-- <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
@@ -1286,45 +1577,58 @@
               <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div> -->
-
+          </div>
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3><span>Kon</span>si<span>.</span></h3>
-            <!-- <p>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3><span>Kon</span>si<span>.</span></h3>
+              <!-- <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info@example.com<br>
             </p> -->
-          </div>
+            </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Links úteis</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Produtos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#why-us">Por que escolher a Konsi?</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">O que falam da Konsi?</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#faq">Perguntas Frequentes</a></li>
-            </ul>
-          </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Links úteis</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#services">Produtos</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#why-us">Por que escolher a Konsi?</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#about">Sobre</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#testimonials">O que falam da Konsi?</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#faq">Perguntas Frequentes</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nosso serviços</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -1335,62 +1639,86 @@
             </ul>
           </div> -->
 
-          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+            <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div> -->
-
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; 2022 <strong><span>Konsi</span></strong>. Todos os direitos Reservados pelo grupo Trade OFF Assessoria
-          Financeira. <strong><a href="tu/index.html" style="margin-right: 3px;">Termos de uso </a> &amp; <a
-              href="pp/index.html" style="margin-left: 3px;">Política de Privacidade</a></strong>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; 2022 <strong><span>Konsi</span></strong
+            >. Todos os direitos Reservados pelo grupo Trade OFF Assessoria
+            Financeira.
+            <strong
+              ><a href="tu/index.html" style="margin-right: 3px"
+                >Termos de uso
+              </a>
+              &amp;
+              <a href="pp/index.html" style="margin-left: 3px"
+                >Política de Privacidade</a
+              ></strong
+            >
+          </div>
         </div>
-
+        <div class="social-links text-center text-md-end pt-3 pt-md-0">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+          <a
+            href="https://www.facebook.com/konsiaplicativo"
+            target="_blank"
+            class="facebook"
+            ><i target="_blank" class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/konsi.app/"
+            target="_blank"
+            class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCakkSbOkUNPxhwj04HqSbVw"
+            target="_blank"
+            class="youtube"
+            ><i target="_blank" class="bx bxl-youtube"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/konsi-app/" class="linkedin"
+            ><i target="_blank" class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5571992230123"
+            class="whatsapp"
+            ><i target="_blank" class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
       </div>
-      <div class="social-links text-center text-md-end pt-3 pt-md-0">
-        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-        <a href="https://www.facebook.com/konsiaplicativo" target="_blank" class="facebook"><i target="_blank"
-            class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/konsi.app/" target="_blank" class="instagram"><i
-            class="bx bxl-instagram"></i></a>
-        <a href="https://www.youtube.com/channel/UCakkSbOkUNPxhwj04HqSbVw" target="_blank" class="youtube"><i
-            target="_blank" class="bx bxl-youtube"></i></a>
-        <a href="https://www.linkedin.com/company/konsi-app/" class="linkedin"><i target="_blank"
-            class="bx bxl-linkedin"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=5571992230123" class="whatsapp"><i target="_blank"
-            class="bx bxl-whatsapp"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <script src="assets/js/queryParameters.js"></script>
-  <script src="assets/js/fbTrack.js"></script>
-
-</body>
-
+    <script src="assets/js/queryParameters.js"></script>
+    <script src="assets/js/fbTrack.js"></script>
+  </body>
 </html>

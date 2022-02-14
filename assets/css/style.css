@@ -430,6 +430,8 @@ h6 {
   #hero {
     text-align: center;
     padding-top: 58px;
+    background: url("../img/hero-bg.jpg") no-repeat;
+    background-position: 75% 0%;
   }
 
   #hero h1 {
