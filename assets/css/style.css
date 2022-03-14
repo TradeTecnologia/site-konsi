@@ -587,7 +587,17 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  padding-bottom: 160px;
+  padding-bottom: 120px;
+}
+
+.embreve {
+  font-weight: 300;
+  color: #10e5ba;
+  font-size: 12px;
+}
+
+.servicoCard {
+  height: 230px;
 }
 
 .services .icon-box {
