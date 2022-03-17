@@ -2337,3 +2337,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.razaoSocial {
+  font-size: 16px;
+  color: #0dc7a2;
+}
