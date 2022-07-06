@@ -12,8 +12,6 @@ acceptCookieBtn.addEventListener("click", function (){
     localStorage.setItem("cookieAccepted", "yes")
 })
 
-
-
 setTimeout(function (){
     let cookieAccepted = localStorage.getItem("cookieAccepted")
     if (cookieAccepted != "yes"){
