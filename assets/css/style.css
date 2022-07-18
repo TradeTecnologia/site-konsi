@@ -75,8 +75,8 @@ h6 {
     color: #fff;
 }
 
-@media only screen and (max-width: 37.5em) {
-  #cookiePopup {
+@media only screen and (max-width: 39em) {
+  .cookie-consent-modal {
     width: 100%;
   }
   .hide {
